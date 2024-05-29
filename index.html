@@ -8,50 +8,34 @@
     ></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/assets/css/style.css" />
-    <title>Media Queries</title>
+    <title>Examen - Animaciones CSS</title>
   </head>
   <body>
     <header>
-      <div>Alimentos para Mascotas</div>
-      <div class="menu"><i class="fa-solid fa-bars"></i></div>
-      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link active text-white" aria-current="page" href="#"
-              >Perros</a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white text-opacity-75" href="#">Gatos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white text-opacity-50" href="#"
-              >Novedades</a
-            >
-          </li>
-          <li class="nav-item">
-            <a
-              class="nav-link disabled text-white text-opacity-25"
-              aria-disabled="true"
-              >Ofertas</a
-            >
-          </li>
-        </ul>
+      <div style="color: coral"><i class="fa-solid fa-cat fa-2xl"></i></div>
+      <div style="color: coral"><h2>MASCOTAS</h2></div>
+      <div class="menuburger"><i class="fa-solid fa-bars fa-xl"></i></div>
+      <div class="menuitems">
+        <button>Perros</button>
+        <button>Gatos</button>
+        <button>Novedades</button>
+        <button>Ofertas</button>
       </div>
+      <div class="carrito"><i class="fa-solid fa-cart-shopping fa-xl"></i></div>
     </header>
     <aside>
       <div class="menudesplegable">
-        Ordenar Por
-        <button class="button">
-          Precio
+        <span style="color: white">Categorías</span>
+        <button class="button2">
+          <span>Gatos</span>
           <img src="" alt="" /> <i class="fa-solid fa-angle-down"></i>
         </button>
       </div>
       <div>
         <div class="menudesplegable2">
-          Ordenar Por
+          <span>Categorías</span>
           <button class="button">
-            Precio
+            <span>Gatos</span>
             <img src="" alt="" /> <i class="fa-solid fa-angle-down"></i>
           </button>
         </div>
@@ -62,60 +46,60 @@
         <img src="/assets/img/img1.jpg" alt="" />
         <span class="marca">DIAMOND</span>
         <span>$19.990</span>
-        <button class="button">Ver Más</button>
+        <button class="button">Comprar</button>
       </div>
       <div class="card">
         <img src="/assets/img/img2.jpg" alt="" />
         <span class="marca">TASTE</span>
         <span>$29.990</span>
-        <button class="button">Ver Más</button>
+        <button class="button">Comprar</button>
       </div>
       <div class="card">
         <img src="/assets/img/img3.jpg" alt="" />
         <span class="marca">FIT</span>
         <span>$9.990</span>
-        <button class="button">Ver Más</button>
+        <button class="button">Comprar</button>
       </div>
       <div class="card">
         <img src="/assets/img/img4.jpg" alt="" />
         <span style="padding: 5px" class="marca">PROPLAN</span>
         <span>$15.990</span>
-        <button class="button">Ver Más</button>
+        <button class="button">Comprar</button>
       </div>
       <div class="card">
         <img src="/assets/img/img5.jpg" alt="" />
         <span class="marca">PREY</span>
         <span>$39.990</span>
-        <button class="button">Ver Más</button>
+        <button class="button">Comprar</button>
       </div>
       <div class="card">
         <img src="/assets/img/img6.jpg" alt="" />
         <span class="marca">ACANA</span>
         <span>$49.990</span>
-        <button class="button">Ver Más</button>
+        <button class="button">Comprar</button>
       </div>
       <div class="card">
         <img src="/assets/img/img7.jpg" alt="" />
         <span class="marca">CHURU</span>
         <span>$5.990</span>
-        <button class="button">Ver Más</button>
+        <button class="button">Comprar</button>
       </div>
       <div class="card">
         <img src="/assets/img/img8.jpg" alt="" />
         <span class="marca">BRAVERY</span>
         <span>$36.990</span>
-        <button class="button">Ver Más</button>
+        <button class="button">Comprar</button>
       </div>
       <div class="card">
         <img src="/assets/img/img9.jpg" alt="" />
         <span class="marca">HILL</span>
         <span>$19.990</span>
-        <button class="button">Ver Más</button>
+        <button class="button">Comprar</button>
       </div>
     </main>
     <footer class="footer">
       <div class="paginas">
-        <a
+        <span
           style="
             border: 2px solid white;
             padding: 5px 10px 5px 10px;
@@ -123,9 +107,9 @@
             text-decoration: none;
           "
           href="#"
-          ><<</a
+          ><<</span
         >
-        <a
+        <span
           style="
             border: 2px solid white;
             padding: 5px 10px 5px 10px;
@@ -133,9 +117,9 @@
             text-decoration: none;
           "
           href="#"
-          >1</a
+          >1</span
         >
-        <a
+        <span
           style="
             border: 2px solid white;
             padding: 5px 10px 5px 10px;
@@ -143,9 +127,9 @@
             text-decoration: none;
           "
           href="#"
-          >2</a
+          >2</span
         >
-        <a
+        <span
           style="
             border: 2px solid white;
             padding: 5px 10px 5px 10px;
@@ -153,9 +137,9 @@
             text-decoration: none;
           "
           href="#"
-          >3</a
+          >3</span
         >
-        <a
+        <span
           style="
             border: 2px solid white;
             padding: 5px 10px 5px 10px;
@@ -163,14 +147,18 @@
             text-decoration: none;
           "
           href="#"
-          >>></a
+          >>></span
         >
       </div>
       <div class="redes">
         <div>© 2024 Todos los Derechos Reservados</div>
-        <div>
-          <i class="fa-brands fa-twitter"></i>
-          <i class="fa-brands fa-facebook"></i>
+        <div style="color: white">
+          <a href="http://www.x.com"
+            ><i class="fa-brands fa-twitter fa-2xl"></i
+          ></a>
+          <a href="http://www.facebook.com"
+            ><i class="fa-brands fa-facebook fa-2xl"></i
+          ></a>
         </div>
       </div>
     </footer>
